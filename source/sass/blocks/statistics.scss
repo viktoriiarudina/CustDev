@@ -1,0 +1,14 @@
+.statistics {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 0 50px;
+}
+
+.statistics__text {
+    width: 420px;
+    margin: 0;
+    font-size: 30px;
+    font-weight: $bold;
+    line-height: 37px;
+}

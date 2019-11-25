@@ -1,0 +1,23 @@
+.description {
+    position: relative;
+    padding-top: 130px;
+}
+
+.description::before {
+    content:"";
+    position: absolute;
+    top: -25px;
+    right: -160px;
+    width: 231px;
+    height: 231px;
+    background: radial-gradient(68.31% 68.31% at 50% 50%, #ffffff 0%, #cadef9 100%), #ffffff;
+    box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
+    filter: blur(20px);
+    border-radius: 50%;
+}
+
+.description__title {
+    width: 780px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,13 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.navigation__button {
+    color: $blue-main;
+    background-color: $white;
+    padding: 13px 25px;
+    border-radius: 50px;
+} 

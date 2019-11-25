@@ -1,0 +1,19 @@
+.program {
+    padding: 100px 45px 15px 100px;
+}
+
+.program__title {
+    margin-bottom: 45px;
+}
+
+.program__link {
+    padding-bottom: 5px;
+    line-height: 20px;
+    color: $blue-main;
+    text-transform: uppercase;
+    border-bottom: 1px dashed $blue-main;
+}
+
+.program__link:hover {
+    border-bottom: 1px solid $blue-main;
+}

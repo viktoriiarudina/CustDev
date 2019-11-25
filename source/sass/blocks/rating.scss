@@ -1,0 +1,45 @@
+.rating {
+    position: absolute;
+    width: 231px;
+    height: 231px;
+    padding: 40px 50px;
+    box-sizing: border-box;
+    left: 182px;
+    top: 436px;
+    text-align: center;
+    color: $blue-main;
+    background: radial-gradient(68.31% 68.31% at 50% 50%, #f9fbff 0%, #cadef9 100%), #ffffff;
+    box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
+    border-radius: 50%;
+}
+
+.rating__title {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: $normal;
+    line-height: 21px;
+}
+
+.rating__rate {
+    margin: 0;
+    font-size: 34px;
+    font-weight: $bold;
+    line-height: 52px;
+}
+
+.rating__commentator {
+    margin: 0;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+.rating__company {
+    font-weight: $bold;
+}
+
+.rating__link {
+    font-size: 10px;
+    line-height: 20px;
+    color: $blue-main;
+}

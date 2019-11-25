@@ -1,0 +1,14 @@
+.description-list {
+    width: 885px;
+    margin-left: 200px;
+    margin-bottom: 175px;
+}
+
+.description-list__item {
+    width: 225px;
+    padding-right: 105px;
+}
+
+.description-list__item:nth-child(3n) {
+    padding-right: 0;
+}

@@ -1,0 +1,44 @@
+.announcement {
+    width: 510px;
+    margin-top: 75px;
+    margin-left: 600px;
+}
+
+.announcement__place {
+    margin: 0;
+    margin-bottom: 18px;
+    font-size: 16px;
+    font-weight: $medium;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+
+.announcement__title {
+    display: block;
+    margin-bottom: 21px;
+    font-size: 40px;
+    font-weight: $bold;
+    line-height: 50px;
+}
+
+.announcement__components {
+    margin: 0;
+    margin-bottom: 29px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.announcement__button {
+    display: block;
+    width: 192px;
+    padding: 17px 40px 21px;
+    box-sizing: border-box;
+    font-weight: $bold;
+    text-align: center;
+    color: $white;
+    background-color: $green-button;
+    border-radius: 50px;
+    text-transform: uppercase;
+    box-shadow: 0 0 0 15px rgba(100, 226, 205, 0.5);
+}

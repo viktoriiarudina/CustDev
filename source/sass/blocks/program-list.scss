@@ -1,0 +1,15 @@
+.program-list {
+    width: 530px;
+}
+
+.program-list__item {
+    width: 230px;
+    margin-right: 70px;
+    margin-bottom: 80px;
+}
+
+.program-list__item:nth-child(2n) {
+    margin-right: 0;
+}
+
+

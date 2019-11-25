@@ -1,0 +1,28 @@
+.statistics-list {
+    width: 660px;
+}
+
+.statistics-list__item {
+    width: 315px;
+    min-height: 221px;
+    margin-right: 30px;
+    margin-bottom: 60px;
+    padding: 30px 15px 30px 50px;
+    box-sizing: border-box;
+    box-shadow: 0px 30px 100px rgba(47, 55, 237, 0.1);
+    border-radius: 10px;
+    white-space: pre-line;
+}
+
+.statistics-list__item:nth-child(2n) {
+    margin-right: 0;
+}
+
+.statistics-list__percent {
+    margin: 0;
+    padding-bottom: 15px;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: $bold;
+    color: $blue-main;
+}
