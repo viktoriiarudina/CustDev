@@ -1,0 +1,66 @@
+.mentor-experience {
+    padding-top: 75px;
+    margin-bottom: 160px;
+}
+
+.mentor-experience__item {
+    position: relative;
+    width: 225px;
+    padding-top: 100px;
+    margin-right: 75px;
+    font-size: 16px;
+    line-height: 23px;
+    color: $grey-text;
+}
+
+.mentor-experience__title {
+    width: 200px;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.mentor-experience__item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.mentor-experience__item--first,
+.mentor-experience__item--second {
+    width: 245px;
+}
+
+.mentor-experience__item:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 70px;
+    height: 70px;
+    background-color: $blue-main;
+    opacity: 0.1;
+    border-radius: 50%;
+}
+
+.mentor-experience__item:before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 61px;
+    height: 61px;
+}
+
+.mentor-experience__item--first:before {
+    background: url("../image/bullhorn.svg") no-repeat 0 0;
+}
+
+.mentor-experience__item--second:before {
+    background: url("../image/lecture.svg") no-repeat 0 0;
+}
+
+.mentor-experience__item--third:before {
+    background: url("../image/chat.svg") no-repeat 0 0;
+}
+
+.mentor-experience__item--fourth:before {
+    background: url("../image/online-class.svg") no-repeat 0 0;
+}

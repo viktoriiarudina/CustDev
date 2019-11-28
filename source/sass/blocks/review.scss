@@ -1,0 +1,51 @@
+.review {
+    position: relative;
+    width: 555px;
+    padding: 25px 40px 25px 50px;
+    margin-bottom: 150px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 29px;
+    color: $grey-text;
+    background-color: $white;
+    box-shadow: 0px 10px 30px rgba(47, 55, 237, 0.1);
+    border-radius: 10px;
+}
+
+.review__name {
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: $medium;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.review::after {
+    content: "";
+    position: absolute;
+    bottom: -40px;
+    left: 25px;
+    border: 20px solid transparent; 
+    border-top: 20px solid $white;
+}
+
+.review::before {
+    content: "";
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    width: 74px;
+    height: 74px;
+}
+
+.review--first::before {
+    background: url("../image/ivan.png") no-repeat 0 0;
+}
+
+.review--second::before {
+    background: url("../image/kate.png") no-repeat 0 0;
+}
+
+.review--third::before {
+    background: url("../image/sergey.png") no-repeat 0 0;
+}

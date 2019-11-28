@@ -3,3 +3,11 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.wrapper--column {
+    flex-direction: column;
+}
+
+.wrapper--reviews {
+    align-items: flex-start;
+}

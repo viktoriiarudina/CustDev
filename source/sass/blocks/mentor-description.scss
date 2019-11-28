@@ -1,0 +1,23 @@
+.mentor-description {
+    width: 350px;
+    padding: 55px 0;
+    text-align: center;
+    box-shadow: 0px 30px 100px rgba(47, 55, 237, 0.1);
+    border-radius: 10px;
+}
+
+.mentor-description__name {
+    margin: 0;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 44px;
+    color: $blue-main;
+}
+
+.mentor-description__position {
+    margin: 0;
+    font-size: 16px;
+    line-height: 29px;
+    color: $grey-text;
+}
