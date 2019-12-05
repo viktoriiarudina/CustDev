@@ -1,0 +1,13 @@
+.gallery-list {
+    width: 100%;
+}
+
+.gallery-list__item {
+    margin-right: 26px;
+    margin-bottom: 23px;
+}
+
+.gallery-list__item:nth-child(4n) {
+    margin-right: 0;
+}
+
